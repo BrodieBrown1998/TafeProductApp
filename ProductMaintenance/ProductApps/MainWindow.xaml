@@ -14,10 +14,12 @@
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
-        <TextBlock x:Name="Total_Charge_Label" HorizontalAlignment="Left" Height="34" Margin="12,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"><Run Language="en-au" Text="Total Charge after adding the delivery charge ($25):"/></TextBlock>
-        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="189,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="109" Text="$$$$$" FontSize="24"/>
-        <TextBlock x:Name="Wrap_Charge_Label" HorizontalAlignment="Left" Height="34" Margin="12,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Text="Total Charge after adding the wrap charge ($5):"/>
-        <TextBlock x:Name="wrapChargeTextBlock" HorizontalAlignment="Left" Margin="189,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="109" Text="$$$$$" FontSize="24"/>
+        <TextBlock x:Name="Total_Charge_Label" HorizontalAlignment="Left" Height="34" Margin="20,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"><Run Language="en-au" Text="Total Charge after adding the delivery charge ($25):"/></TextBlock>
+        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="202,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="108" Text="$$$$$" FontSize="24"/>
+        <TextBlock x:Name="Wrap_Charge_Label" HorizontalAlignment="Left" Height="34" Margin="20,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Text="Total Charge after adding the wrap charge ($5):"/>
+        <TextBlock x:Name="wrapChargeTextBlock" HorizontalAlignment="Left" Margin="201,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="109" Text="$$$$$" FontSize="24"/>
+        <TextBlock x:Name="GST_Charge_Label" HorizontalAlignment="Left" Height="20" Margin="20,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"><Run Text="Total Charge after "/><Run Text="GST @10%"/><Run Language="en-au" Text=":"/></TextBlock>
+        <TextBlock x:Name="gstChargeTextBlock" HorizontalAlignment="Left" Margin="201,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="109" Text="$$$$$" FontSize="24"/>
 
 
     </Grid>

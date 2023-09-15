@@ -8,6 +8,7 @@ namespace ProductApps
 {
     class Product
     {
+        const decimal GST_RATE = 1.1m;
         private decimal price;
         private int quantity;
         private decimal totalPayment;
@@ -16,6 +17,8 @@ namespace ProductApps
         private decimal gst;
         public decimal TotalCharge;
         public decimal wrapCharge;
+        public decimal gstCharge;
+        
 
         private decimal Price
         {
@@ -68,6 +71,7 @@ namespace ProductApps
             TotalPayment = Price * Quantity;
             TotalCharge = TotalPayment + 25;
             wrapCharge = totalPayment + 25 + 5;
+            gstCharge = (TotalPayment + 25 + 5) * GST_RATE;
         }
     }
 }
